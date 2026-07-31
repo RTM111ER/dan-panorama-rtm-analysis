@@ -1,4 +1,4 @@
-.PHONY: test quick heavy hashes
+.PHONY: test quick heavy hashes verify-hashes
 
 test:
 	python -m unittest discover -s tests -v
@@ -10,4 +10,7 @@ heavy:
 	bash scripts/run_heavy.sh
 
 hashes:
-	sha256sum results/precomputed/* > results/precomputed/SHA256SUMS.txt
+	find results/precomputed -maxdepth 1 -type f ! -name 'SHA256SUMS.txt' -print0 | sort -z | xargs -0 sha256sum > results/precomputed/SHA256SUMS.txt
+
+verify-hashes:
+	sha256sum -c results/precomputed/SHA256SUMS.txt
