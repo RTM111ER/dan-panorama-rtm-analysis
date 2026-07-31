@@ -1,0 +1,47 @@
+{
+  "observed_score": 16,
+  "full_event_monte_carlo": {
+    "trials": 100000000,
+    "histogram": {"0": 99513989, "1": 484704, "2": 1305, "3": 2},
+    "maximum_score": 3,
+    "observed_score": 16,
+    "zero_hit_95pct_upper_bound_for_16_of_16": 3e-08
+  },
+  "exact_room_date_grid": {
+    "combinations": 450000,
+    "histogram": {"0": 447693, "1": 1931, "2": 14, "3": 2, "5": 352, "6": 7, "16": 1},
+    "unique_winner": {"date": "2026-07-26", "floor": 12, "suffix": 6, "room": 1206}
+  },
+  "exact_role_permutation": {
+    "permutations": 288,
+    "histogram": {"1": 81, "2": 86, "3": 58, "4": 27, "5": 18, "6": 5, "7": 3, "8": 2, "9": 2, "10": 1, "11": 2, "12": 1, "14": 1, "16": 1},
+    "unique_winner": {
+      "roles": [435, 543, 612, 320],
+      "dates": ["2026-07-26", "2026-07-30", "2026-07-31"],
+      "ages": [76, 44]
+    }
+  },
+  "free_relation_density": {
+    "generated_sets": 1000000,
+    "accepted_unique_sets": 875662,
+    "observed_relation_score": 49,
+    "tail_count_at_least_49": 19,
+    "tail_rate": 2.1697869725990167e-05,
+    "approximately_one_in": 46087,
+    "maximum_random_score": 55,
+    "median": 22,
+    "p90": 29,
+    "p99": 35,
+    "p999": 40,
+    "p9999": 45
+  },
+  "chronological_holdout": {
+    "unique_date_sequence": ["2026-07-30", "2026-07-31"],
+    "short_phone_hits": 84,
+    "short_phone_total": 9000,
+    "long_phone_hits": 7700,
+    "long_phone_total": 10000000,
+    "conditional_joint_uniform_probability": 1.9743589743589746e-08,
+    "approximately_one_in": 50649351
+  }
+}

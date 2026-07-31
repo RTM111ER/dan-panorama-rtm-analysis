@@ -1,0 +1,57 @@
+{
+  "case": "Dan Panorama Tel Aviv",
+  "timeline": [
+    {
+      "date": "2026-07-26",
+      "role": "initial information",
+      "facts": ["hotel: Dan Panorama Tel Aviv", "room: 1206", "floor: 12"]
+    },
+    {
+      "date": "2026-07-30",
+      "role": "repeat measurement"
+    },
+    {
+      "date": "2026-07-31",
+      "role": "late clarification",
+      "facts": ["Amir interpreted 1206 as floor 12, room 06"]
+    }
+  ],
+  "fixed_values": {
+    "דן פנורמה": 435,
+    "אמיר הרפז": 543,
+    "ערן": 320,
+    "ערן הרפז": 612,
+    "ערן הרפז בן ארבעים וארבע": 1266,
+    "חדר מספר אלף מאתיים ושש דן פנורמה תל אביב קומה שתים עשרה": 4166,
+    "עשרים ושש ביולי אלפיים עשרים ושש": 2681,
+    "שלושים ביולי אלפיים עשרים ושש": 2141,
+    "שלושים ואחד ביולי אלפיים עשרים ושש": 2160,
+    "מס חדר אלף מאתיים ושש": 1530,
+    "מס חדר אלף מאתיים ושש קומה שתים עשרה": 3006,
+    "חדר אלף מאתיים ושש": 1430,
+    "מהו מספר חדר ששהה אמיר הרפז במלון דן פנורמה": 2359,
+    "מהו מספר חדר ששהה אמיר הרפז במלון דן פנורמה תל אביב": 2804
+  },
+  "numeric_anchors": {
+    "base": 4166,
+    "room": 1206,
+    "floor": 12,
+    "initial_date_compact": 267,
+    "initial_date_padded": 2607,
+    "hotel": 435,
+    "amir": 543,
+    "eran": 612,
+    "eran_first": 320,
+    "amir_birth_year": 1949,
+    "amir_age": 76,
+    "eran_age": 44,
+    "short_phone": 5450,
+    "international_phone_digits": "97235202552",
+    "fixed_anchor_58": 58
+  },
+  "documentation_notes": {
+    "fixed_anchor_58": "Declared in the transcript as a fixed apartment anchor. The repository does not contain the primary source establishing this anchor; add it before external publication.",
+    "transcript_typos": "The YouTube transcript contains speech-to-text errors. Computation uses the exact strings listed in fixed_values.",
+    "date_of_birth": "Age 44 and birth year 1982 should be supported by a full birth date if presented as exact age on 2026-07-30."
+  }
+}

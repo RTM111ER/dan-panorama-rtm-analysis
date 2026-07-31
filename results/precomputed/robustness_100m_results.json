@@ -1,0 +1,319 @@
+{
+  "observed": {
+    "closure_score": 16,
+    "closure_flags": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "family_score": 6,
+    "family_flags": {
+      "base_identity": true,
+      "time_place_person": true,
+      "room_recovery": true,
+      "observer_time": true,
+      "node_recovery": true,
+      "external_continuation": true
+    }
+  },
+  "dependency_aware_full_event": {
+    "trials": 100000000,
+    "histogram": {
+      "0": 99999933,
+      "1": 67
+    },
+    "maximum_family_score": 1,
+    "zero_hit_95pct_upper_bound_for_6_of_6": 3e-08,
+    "nonzero_family_patterns": {
+      "000100": 20,
+      "001000": 19,
+      "100000": 14,
+      "000010": 14
+    }
+  },
+  "exact_hotel_amir_grid": {
+    "combinations": 810000,
+    "raw_histogram": {
+      "4": 806526,
+      "5": 1346,
+      "6": 778,
+      "7": 450,
+      "9": 899,
+      "16": 1
+    },
+    "family_histogram": {
+      "1": 808651,
+      "2": 449,
+      "3": 899,
+      "6": 1
+    },
+    "raw_16_of_16_winners": [
+      {
+        "hotel_value": 435,
+        "amir_value": 543
+      }
+    ],
+    "family_6_of_6_winners": [
+      {
+        "hotel_value": 435,
+        "amir_value": 543
+      }
+    ]
+  },
+  "one_anchor_perturbations": {
+    "initial_date": {
+      "space_size": 360,
+      "raw_histogram": {
+        "5": 352,
+        "6": 7,
+        "16": 1
+      },
+      "family_histogram": {
+        "1": 359,
+        "6": 1
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        "2026-07-26"
+      ],
+      "best_raw_tie_count": 1,
+      "best_family_score": 6,
+      "best_family_values": [
+        "2026-07-26"
+      ],
+      "best_family_tie_count": 1
+    },
+    "room_floor": {
+      "space_size": 1250,
+      "raw_histogram": {
+        "0": 1246,
+        "2": 2,
+        "3": 1,
+        "16": 1
+      },
+      "family_histogram": {
+        "0": 1249,
+        "6": 1
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        {
+          "floor": 12,
+          "suffix": 6,
+          "room": 1206
+        }
+      ],
+      "best_raw_tie_count": 1,
+      "best_family_score": 6,
+      "best_family_values": [
+        {
+          "floor": 12,
+          "suffix": 6,
+          "room": 1206
+        }
+      ],
+      "best_family_tie_count": 1
+    },
+    "hotel_value": {
+      "space_size": 900,
+      "raw_histogram": {
+        "5": 898,
+        "6": 1,
+        "16": 1
+      },
+      "family_histogram": {
+        "1": 899,
+        "6": 1
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        435
+      ],
+      "best_raw_tie_count": 1,
+      "best_family_score": 6,
+      "best_family_values": [
+        435
+      ],
+      "best_family_tie_count": 1
+    },
+    "amir_value": {
+      "space_size": 900,
+      "raw_histogram": {
+        "9": 899,
+        "16": 1
+      },
+      "family_histogram": {
+        "3": 899,
+        "6": 1
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        543
+      ],
+      "best_raw_tie_count": 1,
+      "best_family_score": 6,
+      "best_family_values": [
+        543
+      ],
+      "best_family_tie_count": 1
+    },
+    "eran_first_value": {
+      "space_size": 999,
+      "raw_histogram": {
+        "13": 998,
+        "16": 1
+      },
+      "family_histogram": {
+        "3": 998,
+        "6": 1
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        320
+      ],
+      "best_raw_tie_count": 1,
+      "best_family_score": 6,
+      "best_family_values": [
+        320
+      ],
+      "best_family_tie_count": 1
+    },
+    "amir_age_birth_coherent": {
+      "space_size": 73,
+      "raw_histogram": {
+        "14": 72,
+        "16": 1
+      },
+      "family_histogram": {
+        "5": 72,
+        "6": 1
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        {
+          "age": 76,
+          "birth": 1949
+        }
+      ],
+      "best_raw_tie_count": 1,
+      "best_family_score": 6,
+      "best_family_values": [
+        {
+          "age": 76,
+          "birth": 1949
+        }
+      ],
+      "best_family_tie_count": 1
+    },
+    "eran_age": {
+      "space_size": 73,
+      "raw_histogram": {
+        "13": 72,
+        "16": 1
+      },
+      "family_histogram": {
+        "4": 72,
+        "6": 1
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        44
+      ],
+      "best_raw_tie_count": 1,
+      "best_family_score": 6,
+      "best_family_values": [
+        44
+      ],
+      "best_family_tie_count": 1
+    },
+    "short_phone": {
+      "space_size": 9000,
+      "raw_histogram": {
+        "15": 8916,
+        "16": 84
+      },
+      "family_histogram": {
+        "5": 8916,
+        "6": 84
+      },
+      "best_raw_score": 16,
+      "best_raw_values": [
+        3350,
+        3360,
+        3450,
+        3460,
+        3550,
+        3560,
+        3650,
+        3660,
+        3750,
+        3760,
+        3850,
+        3860,
+        3950,
+        3960,
+        4350,
+        4360,
+        4450,
+        4460,
+        4550,
+        4560,
+        4650,
+        4660,
+        4750,
+        4760,
+        4850
+      ],
+      "best_raw_tie_count": 84,
+      "best_family_score": 6,
+      "best_family_values": [
+        3350,
+        3360,
+        3450,
+        3460,
+        3550,
+        3560,
+        3650,
+        3660,
+        3750,
+        3760,
+        3850,
+        3860,
+        3950,
+        3960,
+        4350,
+        4360,
+        4450,
+        4460,
+        4550,
+        4560,
+        4650,
+        4660,
+        4750,
+        4760,
+        4850
+      ],
+      "best_family_tie_count": 84
+    },
+    "observed": {
+      "raw_score": 16,
+      "family_score": 6,
+      "date": "2026-07-26",
+      "room": 1206
+    }
+  },
+  "runtime_seconds": 32.18993616104126
+}

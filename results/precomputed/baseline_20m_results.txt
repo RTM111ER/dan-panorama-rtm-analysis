@@ -1,0 +1,86 @@
+Dan Panorama RTM — simulation results
+======================================
+
+Exact checks using the transcript's conventions
+------------------------------------------------
+Hotel-value bundle:
+  Search H = 100..999.
+  Only H = 435 satisfies all four hotel/base conditions.
+
+Amir-value bundle:
+  With H = 435, search A = 100..999.
+  Only A = 543 satisfies all five Amir-related conditions.
+
+Eran first-name bundle:
+  With surname value 292, search first-name value = 1..999.
+  Only 320 satisfies all four observer-related conditions.
+  The resulting full-name value is 612.
+
+Base-number transformation:
+  Search n = 1000..6999 for
+      n - gematria(number written as a whole)
+        - gematria(digits read separately) = 534
+  Hits: 4166 and 4974.
+  4166 is one of only two hits in this range.
+
+3347 node transformation:
+  Search n = 1000..6999 for
+      n - gematria(digits read separately) = 1430
+  Hits: 3240 and 3347.
+  3347 is one of only two hits in this range.
+
+Short phone:
+  Search all 9000 four-digit numbers (1000..9999) for a whole-reading
+  minus digit-reading difference of 927.
+  Hits: 84.
+  Rate: 0.0093333333, approximately 1 in 107.
+
+International phone:
+  Fixed prefix 9723 and seven random decimal digits.
+  Exact dynamic-programming count for digit-reading value 6003:
+  7,700 out of 10,000,000.
+  Rate: 0.00077, approximately 1 in 1,299.
+
+31 July continuation:
+  Enumerating all 365 dates of 2026 under the date wording convention
+  used in the transcript, exactly one date has a full-date value whose
+  digit reversal is 612:
+      2026-07-31 -> 2160 -> 0612.
+  612 is both the 12|06 room split and the value of "ערן הרפז".
+
+Monte Carlo
+-----------
+Null model:
+  - Formula templates stay frozen.
+  - Hotel value H is randomized uniformly over 100..999.
+  - Amir value A is randomized uniformly over 100..999.
+  - Eran first-name value is randomized uniformly over 1..999,
+    retaining the shared surname value 292.
+  - Clarification date is randomized over the 365 dates of 2026.
+  - The short phone is randomized over 1000..9999.
+  - The international phone retains prefix 9723 and receives a random
+    seven-digit suffix.
+  - Each trial is scored against the same 15 closures.
+
+20,000,000 trials:
+  Score 0: 19,689,427
+  Score 1:    275,985
+  Score 2:      1,073
+  Score 3:     10,932
+  Score 4:     22,303
+  Score 5:        261
+  Score 10:        19
+  Scores 11-15:     0
+
+Observed event:
+  15/15 closures.
+
+Interpretation
+--------------
+Under this explicit null model, the observed network is far outside the
+simulated distribution. This supports extreme anomaly relative to the model.
+
+It is not, by itself, a universal proof against every possible null model.
+The numerical probability depends on assumptions about the empirical
+distribution of Hebrew names/hotel names, independence of anchors, the
+complete frozen protocol, and the number of opportunities examined.

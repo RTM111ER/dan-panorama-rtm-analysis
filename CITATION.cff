@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this repository if you use its code or results."
+title: "Dan Panorama RTM Analysis"
+type: software
+version: 0.1.0
+date-released: 2026-07-31
+authors:
+  - family-names: Harpaz
+    given-names: Eran
+license: MIT

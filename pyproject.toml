@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dan-panorama-rtm-analysis"
+version = "0.1.0"
+description = "Reproducible gematria and null-model tests for the Dan Panorama RTM case"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0,<3", "numba>=0.60,<1"]
+license = {text = "MIT"}
+
+[tool.setuptools]
+py-modules = []
